@@ -8,7 +8,7 @@ Social login api for Angular 6. Includes Facebook, Google login and Linkedin.
 ### Install via npm 
 
 ```sh
-npm install --save angular-6-social-login
+npm install --save angular6-social-authenticate
 ```
 
 ### Import the module
