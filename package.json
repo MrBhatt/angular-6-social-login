@@ -1,7 +1,7 @@
 {
   "name": "angular-6-social-login",
-  "version": "1.1.0",
-  "description": "Agular 6 : Social Login (Facebook and Google)",
+  "version": "2.0",
+  "description": "Agular 6 : Social Login (Facebook, Google and LinkedIn)",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/high54/angular-6-social-login"
+    "url": "https://github.com/MrBhatt/angular-6-social-login-v3"
   },
   "author": {
-    "name": "Julien Bertacco",
-    "email": "julien.bertacco@gmail.com"
+    "name": "Anupam Bhatt",
+    "email": "anupambhatt@gmail.com"
   },
   "keywords": [
     "angular",
@@ -26,6 +26,7 @@
     "angular social login",
     "angular facebook login",
     "angular google login",
+    "angular linkedin login",
     "angular 6 social login",
     "angular6 social login",
     "social authentication",
@@ -43,15 +44,15 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/high54/angular-6-social-login/issues"
+    "url": "https://github.com/MrBhatt/angular-6-social-login-v3"
   },
   "devDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/common": "^6.0.3",
+    "@angular/compiler": "^6.0.3",
+    "@angular/compiler-cli": "^6.0.3",
+    "@angular/core": "^6.0.3",
+    "@angular/platform-browser": "^6.0.3",
+    "@angular/platform-browser-dynamic": "^6.0.3",
     "@compodoc/compodoc": "^1.0.0-beta.10",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
@@ -82,6 +83,6 @@
     "zone.js": "^0.8.4"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   }
 }
