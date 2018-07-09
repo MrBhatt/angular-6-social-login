@@ -1,12 +1,6 @@
-# Original project : sabyasachibiswal https://github.com/sabyasachibiswal/angular5-social-login
-
-
 Social login api for Angular 6. Includes Facebook, Google login and Linkedin. 
 
-![Generic badge](https://img.shields.io/badge/build-passing-green.svg)
-![Generic badge](https://img.shields.io/badge/Angular-6-green.svg)
 [AOT](https://angular.io/guide/aot-compiler) Compatible.
-
 
 ## Getting started
 
@@ -47,7 +41,7 @@ export function getAuthServiceConfigs() {
         },
           {
             id: LinkedinLoginProvider.PROVIDER_ID,
-            provider: new LinkedinLoginProvider("1098828800522-m2ig6bieilc3tpqvmlcpdvrpvn86q4ks.apps.googleusercontent.com")
+            provider: new LinkedinLoginProvider("Your-LinkedIn-Client-Id")
           },
       ];
   );
@@ -129,9 +123,9 @@ In `signin.component.html`,
 </h1>
 
 <button (click)="socialSignIn('facebook')">Sign in with Facebook</button>
+<button (click)="socialSignIn('linkedin')">Sign in with LinkedIn</button>
 <button (click)="socialSignIn('google')">Sign in with Google</button>              
 ```
-
 
 
 ### Facebook App Id : 
@@ -144,3 +138,5 @@ Add `Facebook login` under products and configure `Valid OAuth redirect URIs`.
 Follow this official documentation on how to [
 Create a Google API Console project and client ID](https://developers.google.com/identity/sign-in/web/devconsole-project).
 
+### LinkedIn client Id:
+[Create a LinkedIn app](https://developer.linkedin.com/) and copy the client Id
