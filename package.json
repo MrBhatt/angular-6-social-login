@@ -1,6 +1,6 @@
 {
   "name": "angular-6-social-login",
-  "version": "2.0",
+  "version": "2.0.0",
   "description": "Agular 6 : Social Login (Facebook, Google and LinkedIn)",
   "scripts": {
     "build": "gulp build",
@@ -84,5 +84,8 @@
   },
   "engines": {
     "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "user": "0.0.0"
   }
 }
